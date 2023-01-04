@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+}
+.btnl{
+    align-items: center;
+}
+#log1{
+    background-color: black;
+}
+input{
+    border-radius: 100px;
+    border: 2px solid;
+    
+}
+.row{
+    background-color: burlywood;
+   
+}
+.row{
+    height: 500px;
+    background-color: burlywood;
+}

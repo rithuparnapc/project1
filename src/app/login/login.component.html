@@ -1,0 +1,27 @@
+
+
+<div class="row">
+    <div class="col-4"></div>
+    <div class="col-4  mt-5 shadow-lg p-3 mb-5 bg-body rounded " id="log1">
+        <form action="" class="text-center">
+            
+            <img src="../../assets/logo.png" style="height:2cm; " class="rounded" alt="">
+           
+            <h1 class="text-secondary mt-3">Login</h1>
+            
+            
+            <input type="text" [(ngModel)]="userid" placeholder="UserID" id="userid" class="form-control mt-2 shadow-lg">
+            <input type="text" [(ngModel)]="pswd" placeholder="Password" id="pswd" class="form-control mt-2 shadow-lg">
+            <div class="d-grid gap-2 col-4 mx-auto">
+            <input type="button" value="Log in" (click)="login()" class="  container  btn btn-secondary   ml-3 mt-3" id="btnl" style="text-align: center;">
+            </div><br>
+            <p>Don't have an account?
+            <a href=""class=" text-decoration-none text-secondary"> Sign Up</a></p>
+    
+        </form>
+        
+    </div>
+    <div class="col-4"></div>
+</div>
+<div class="row"></div>
+
